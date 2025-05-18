@@ -1,8 +1,5 @@
-// Solicitar edad al usuario
-let edad = prompt("Ingrese su edad:");
-
-// Convertir la entrada a número
-edad = Number(edad);
+// Convertimos la edad global a número
+let edad = Number(window.edadGlobal);
 
 // Clasificación utilizando IF anidados
 if (edad < 0) {
@@ -22,3 +19,4 @@ if (edad < 0) {
     }
   }
 }
+
