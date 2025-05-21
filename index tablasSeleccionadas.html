@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Tablas Seleccionadas</title>
+</head>
+<body>
+  <h1>Tablas de Multiplicar Seleccionadas</h1>
+  <p>Abre la consola del navegador para ver el resultado.</p>
+
+  <script>
+    // Preguntar al usuario qué tipo de tablas desea ver
+    let tipo = prompt("¿Deseas ver las tablas de multiplicar de números pares o impares? (Escribe 'pares' o 'impares')");
+    // Guardar en variable global para usar en el JS externo
+    window.seleccionTablas = tipo;
+  </script>
+
+  <!-- Enlace al archivo JavaScript externo -->
+  <script src="tablasSeleccionadas.js"></script>
+</body>
+</html>

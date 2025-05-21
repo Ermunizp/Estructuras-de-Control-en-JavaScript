@@ -2,10 +2,10 @@
 let numeroMultiplicar = Number(window.numeroIngresado);
 
 // Validación de número ingresado (isNaN) y uso de if anidados
-if (isNaN(numero)) {
+if (isNaN(numeroMultiplicar)) {
   console.log("Entrada no válida. Por favor, ingrese un número.");
 } else {
-  if (numero <= 0) {
+  if (numeroMultiplicar <= 0) {
     console.log("Ingrese un número mayor que cero.");
   } else {
     console.log(`Tabla de multiplicar del ${numeroMultiplicar}:`);
